@@ -1,0 +1,46 @@
+2025-04-19 23:39:51,205 [INFO] Initialized W&B run.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+2025-04-19 23:39:51,208 [INFO] W&B run named: run-mlgzp9hg,num_filters-[32, 64, 128, 256, 256],kernel_size-5,dropout-0.2,batch_norm-True,conv_activation-SiLU,augment-True
+2025-04-19 23:39:52,012 [INFO] Loaded train/val/test dataloaders with augmentation: True
+2025-04-19 23:39:52,022 [INFO] Random seed set to 42.
+2025-04-19 23:39:52,023 [INFO] Parsed num_filters: [32, 64, 128, 256, 256]
+2025-04-19 23:39:52,025 [INFO] Type of num_filters: <class 'list'>
+2025-04-19 23:39:52,027 [INFO] Building convolutional layers...
+2025-04-19 23:39:52,281 [INFO] Flatten size after conv layers: 6400
+2025-04-19 23:39:52,321 [INFO] FlexibleCNN model initialized.
+2025-04-19 23:39:52,322 [INFO] Starting model training...
+2025-04-19 23:39:52,329 [INFO] Starting training...
+Training Progress:   0%|                                                                           | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -31,7 +31,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 logging.info(f"Using device: {device}")
 
 # ---------------- Data Directory ---------------- #
-data_dir = "inaturalist_12K"  # Replace with your dataset path
+data_dir = "C:\Users\sanka\Desktop\DL_Assignment_2\inaturalist_12K"  # Replace with your dataset path
 logging.info(f"Using dataset from: {data_dir}")
 
 # ---------------- Argument Parsing ---------------- #

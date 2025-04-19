@@ -595,3 +595,17 @@
 2025-04-19 23:37:33,504 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
 2025-04-19 23:37:36,575 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
 2025-04-19 23:37:44,708 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:37:50,751 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:37:54,810 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:00,864 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:05,002 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:11,301 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:17,336 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:21,427 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:27,576 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:31,589 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:39,641 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:43,649 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:51,695 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:38:57,740 INFO    Thread-16 :26140 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\files\output.log
+2025-04-19 23:39:01,860 INFO    MainThread:26140 [internal.py:handle_exit():73] Internal process exited

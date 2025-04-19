@@ -1,0 +1,23 @@
+2025-04-19 23:39:46,308 INFO    MainThread:12768 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-04-19 23:39:46,308 INFO    MainThread:12768 [wandb_setup.py:_flush():67] Configure stats pid to 12768
+2025-04-19 23:39:46,308 INFO    MainThread:12768 [wandb_setup.py:_flush():67] Loading settings from C:\Users\sanka\.config\wandb\settings
+2025-04-19 23:39:46,308 INFO    MainThread:12768 [wandb_setup.py:_flush():67] Loading settings from C:\Users\sanka\Desktop\DL_Assignment_2\wandb\settings
+2025-04-19 23:39:46,309 INFO    MainThread:12768 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-19 23:39:46,309 INFO    MainThread:12768 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_233946-mlgzp9hg\logs\debug.log
+2025-04-19 23:39:46,309 INFO    MainThread:12768 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_233946-mlgzp9hg\logs\debug-internal.log
+2025-04-19 23:39:46,309 INFO    MainThread:12768 [wandb_init.py:init():761] calling init triggers
+2025-04-19 23:39:46,310 INFO    MainThread:12768 [wandb_init.py:init():766] wandb.init called with sweep_config: {'augment': True, 'batch_norm': True, 'conv_activation': 'SiLU', 'dropout': 0.2, 'epochs': 20, 'kernel_size': 5, 'learning_rate': 1e-05, 'num_filters': [32, 64, 128, 256, 256]}
+config: {'wandb_project': 'DA6401_assignment2', 'wandb_entity': 'myname', 'wandb_sweepid': None, 'epochs': 20, 'batch_size': 64, 'learning_rate': 1e-05, 'num_filters': '[32, 64, 128, 256, 256]', 'kernel_size': 5, 'dropout': 0.2, 'batch_norm': True, 'conv_activation': 'SiLU', 'augment': True, '_wandb': {}}
+2025-04-19 23:39:46,310 INFO    MainThread:12768 [wandb_init.py:init():784] starting backend
+2025-04-19 23:39:46,310 INFO    MainThread:12768 [wandb_init.py:init():788] sending inform_init request
+2025-04-19 23:39:46,349 INFO    MainThread:12768 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-19 23:39:46,349 INFO    MainThread:12768 [wandb_init.py:init():798] backend started and connected
+2025-04-19 23:39:46,350 INFO    MainThread:12768 [wandb_run.py:_config_callback():1261] config_cb None None {'augment': True, 'batch_norm': True, 'conv_activation': 'SiLU', 'dropout': 0.2, 'epochs': 20, 'kernel_size': 5, 'learning_rate': 1e-05, 'num_filters': [32, 64, 128, 256, 256]}
+2025-04-19 23:39:46,351 INFO    MainThread:12768 [wandb_init.py:init():891] updated telemetry
+2025-04-19 23:39:46,449 INFO    MainThread:12768 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-19 23:39:47,474 INFO    MainThread:12768 [wandb_init.py:init():990] starting run threads in backend
+2025-04-19 23:39:51,196 INFO    MainThread:12768 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-19 23:39:51,197 INFO    MainThread:12768 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-19 23:39:51,197 INFO    MainThread:12768 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-19 23:39:51,197 INFO    MainThread:12768 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-19 23:39:51,205 INFO    MainThread:12768 [wandb_init.py:init():1032] run started, returning control to user process
