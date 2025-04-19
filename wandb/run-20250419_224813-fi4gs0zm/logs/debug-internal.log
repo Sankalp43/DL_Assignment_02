@@ -1,0 +1,3 @@
+2025-04-19 22:48:13,071 INFO    StreamThr :9124 [internal.py:wandb_internal():83] W&B internal server running at pid: 9124, started at: 2025-04-19 22:48:13.071311
+2025-04-19 22:48:13,071 INFO    WriterThread:9124 [datastore.py:open_for_write():87] open: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\run-fi4gs0zm.wandb
+2025-04-19 22:48:13,137 INFO    SenderThread:9124 [sender.py:_setup_resume():695] checking resume status for rohitrk06-indian-institute-of-technology-madras/DL_Assignment_2/fi4gs0zm

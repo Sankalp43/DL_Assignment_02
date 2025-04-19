@@ -1,0 +1,23 @@
+wandb_version: 1
+
+augment:
+  value: true
+batch_norm:
+  value: false
+conv_activation:
+  value: Mish
+dropout:
+  value: 0.2
+epochs:
+  value: 20
+kernel_size:
+  value: 3
+learning_rate:
+  value: 0.0001
+num_filters:
+  value:
+  - 32
+  - 64
+  - 128
+  - 256
+  - 256

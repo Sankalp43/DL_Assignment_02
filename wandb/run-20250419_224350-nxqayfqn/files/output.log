@@ -1,0 +1,29 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "C:\Users\sanka\Desktop\DL_Assignment_2\train.py", line 75, in <module>
+    train_loader, val_loader, test_loader, tiny_loader = get_dataloaders(data_dir, augment=config.augment)
+  File "C:\Users\sanka\Desktop\DL_Assignment_2\dataloader.py", line 59, in get_dataloaders
+    test_dataset = datasets.ImageFolder(root=os.path.join(data_dir, "val"), transform=basic_transform)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'inaturalist_12K\\val'
+Traceback (most recent call last):
+  File "C:\Users\sanka\Desktop\DL_Assignment_2\train.py", line 75, in <module>
+    train_loader, val_loader, test_loader, tiny_loader = get_dataloaders(data_dir, augment=config.augment)
+  File "C:\Users\sanka\Desktop\DL_Assignment_2\dataloader.py", line 59, in get_dataloaders
+    test_dataset = datasets.ImageFolder(root=os.path.join(data_dir, "val"), transform=basic_transform)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\sanka\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'inaturalist_12K\\val'

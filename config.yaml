@@ -1,0 +1,30 @@
+program: train.py
+name: 'DA6401_Assignment2'
+method: random
+metric:
+  name: val_acc
+  goal: maximize
+
+parameters:
+  num_filters:
+    values:
+      - [32, 64, 128, 256, 256]
+      - [256, 256, 128, 64, 32]
+      - [32, 64, 128, 64, 32]
+      - [32, 32, 32, 32, 32]
+      - [64, 64, 64, 64, 64]
+      - [128, 128, 128, 128, 128]
+  kernel_size:
+    values: [3, 5, 7]
+  dropout:
+    values: [0, 0.2, 0.3]
+  batch_norm:
+    values: [true, false]
+  conv_activation:
+    values: ["ReLU", "GELU", "SiLU", "Mish"]
+  augment:
+    values: [true]
+  learning_rate:
+    values: [0.00001, 0.0001, 0.001]
+  epochs:
+    values: [20]
