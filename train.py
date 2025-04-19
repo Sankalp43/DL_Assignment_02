@@ -107,7 +107,7 @@ logging.info(f"Parsed num_filters: {config.num_filters}")
 logging.info(f"Type of num_filters: {type(config.num_filters)}")
 
 # ---------------- Initialize Flexible CNN ---------------- #
-nn = FlexibleCNN(
+model = FlexibleCNN(
     num_filters=config.num_filters,
     kernel_size=config.kernel_size,
     dropout=config.dropout,
@@ -118,7 +118,7 @@ logging.info("FlexibleCNN model initialized.")
 
 # ---------------- Train Model ---------------- #
 logging.info("Starting model training...")
-nn.train_model(
+model.train_model(
     train_loader=train_loader,
     val_loader=val_loader,
     device=device,

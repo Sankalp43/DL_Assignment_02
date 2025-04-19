@@ -15,3 +15,9 @@ config: {'wandb_project': 'DA6401_assignment2', 'wandb_entity': 'myname', 'wandb
 2025-04-19 22:59:05,687 INFO    MainThread:18692 [wandb_run.py:_config_callback():1261] config_cb None None {'augment': True, 'batch_norm': False, 'conv_activation': 'ReLU', 'dropout': 0, 'epochs': 20, 'kernel_size': 3, 'learning_rate': 1e-05, 'num_filters': [32, 64, 128, 64, 32]}
 2025-04-19 22:59:05,692 INFO    MainThread:18692 [wandb_init.py:init():891] updated telemetry
 2025-04-19 22:59:05,760 INFO    MainThread:18692 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-19 22:59:06,757 INFO    MainThread:18692 [wandb_init.py:init():990] starting run threads in backend
+2025-04-19 22:59:07,695 INFO    MainThread:18692 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-19 22:59:07,695 INFO    MainThread:18692 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-19 22:59:07,695 INFO    MainThread:18692 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-19 22:59:07,695 INFO    MainThread:18692 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-19 22:59:07,695 INFO    MainThread:18692 [wandb_init.py:init():1032] run started, returning control to user process
