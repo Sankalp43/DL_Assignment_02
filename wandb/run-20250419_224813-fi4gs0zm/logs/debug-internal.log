@@ -1,3 +1,53 @@
 2025-04-19 22:48:13,071 INFO    StreamThr :9124 [internal.py:wandb_internal():83] W&B internal server running at pid: 9124, started at: 2025-04-19 22:48:13.071311
 2025-04-19 22:48:13,071 INFO    WriterThread:9124 [datastore.py:open_for_write():87] open: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\run-fi4gs0zm.wandb
 2025-04-19 22:48:13,137 INFO    SenderThread:9124 [sender.py:_setup_resume():695] checking resume status for rohitrk06-indian-institute-of-technology-madras/DL_Assignment_2/fi4gs0zm
+2025-04-19 22:48:14,163 INFO    SenderThread:9124 [dir_watcher.py:__init__():211] watching files in: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files
+2025-04-19 22:48:14,176 INFO    SenderThread:9124 [sender.py:_start_run_threads():1134] run started: fi4gs0zm with start time 1745083093.071311
+2025-04-19 22:48:14,178 INFO    HandlerThread:9124 [system_monitor.py:start():187] Starting system monitor
+2025-04-19 22:48:14,178 INFO    SystemMonitor:9124 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-04-19 22:48:14,178 INFO    HandlerThread:9124 [system_monitor.py:probe():207] Collecting system info
+2025-04-19 22:48:14,192 INFO    SystemMonitor:9124 [interfaces.py:start():186] Started cpu monitoring
+2025-04-19 22:48:14,192 INFO    SystemMonitor:9124 [interfaces.py:start():186] Started disk monitoring
+2025-04-19 22:48:14,209 INFO    SystemMonitor:9124 [interfaces.py:start():186] Started memory monitoring
+2025-04-19 22:48:14,214 INFO    SystemMonitor:9124 [interfaces.py:start():186] Started network monitoring
+2025-04-19 22:48:14,290 INFO    HandlerThread:9124 [system_monitor.py:probe():217] Finished collecting system info
+2025-04-19 22:48:14,290 INFO    HandlerThread:9124 [system_monitor.py:probe():220] Publishing system info
+2025-04-19 22:48:14,301 INFO    HandlerThread:9124 [system_monitor.py:probe():222] Finished publishing system info
+2025-04-19 22:48:14,319 INFO    SenderThread:9124 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-04-19 22:48:15,182 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\wandb-metadata.json
+2025-04-19 22:48:15,182 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\requirements.txt
+2025-04-19 22:48:15,295 INFO    wandb-upload_0:9124 [upload_job.py:push():130] Uploaded file C:\Users\sanka\AppData\Local\Temp\tmpppb2vn0mwandb\k2q1zzxa-wandb-metadata.json
+2025-04-19 22:48:15,483 INFO    SenderThread:9124 [sender.py:send_run():981] updated run: fi4gs0zm
+2025-04-19 22:48:16,194 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\config.yaml
+2025-04-19 22:48:16,194 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:48:18,332 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:48:28,463 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:48:36,617 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:48:43,880 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:48:45,889 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\config.yaml
+2025-04-19 22:48:56,015 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:06,075 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:16,157 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:24,244 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:30,322 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:38,413 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:44,463 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:52,524 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:49:58,588 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:04,646 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:12,715 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:18,777 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:28,880 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:36,951 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:43,010 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:51,091 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:50:57,144 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:05,212 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:11,259 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:21,350 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:28,409 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:40,542 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:49,030 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:51:57,117 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:52:03,176 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log
+2025-04-19 22:52:11,327 INFO    Thread-16 :9124 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_224813-fi4gs0zm\files\output.log

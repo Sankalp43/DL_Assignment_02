@@ -1,10 +1,7 @@
-Train Loader Length:  [32, 64, 128, 256, 256]
+Train Loader Length:  [32, 32, 32, 32, 32]
 Train Loader Length:  <class 'list'>
 [34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
 Training Progress:   0%|                                                                           | 0/20 [00:00<?, ?it/s]
-
-
-
 
 
 

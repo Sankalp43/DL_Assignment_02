@@ -1,0 +1,3 @@
+2025-04-19 22:59:05,700 INFO    StreamThr :26140 [internal.py:wandb_internal():83] W&B internal server running at pid: 26140, started at: 2025-04-19 22:59:05.697666
+2025-04-19 22:59:05,705 INFO    WriterThread:26140 [datastore.py:open_for_write():87] open: C:\Users\sanka\Desktop\DL_Assignment_2\wandb\run-20250419_225905-t8dq45us\run-t8dq45us.wandb
+2025-04-19 22:59:05,760 INFO    SenderThread:26140 [sender.py:_setup_resume():695] checking resume status for rohitrk06-indian-institute-of-technology-madras/DL_Assignment_2/t8dq45us
