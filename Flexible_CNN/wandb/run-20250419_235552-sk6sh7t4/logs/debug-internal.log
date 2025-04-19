@@ -1,0 +1,102 @@
+2025-04-19 23:55:52,281 INFO    StreamThr :27096 [internal.py:wandb_internal():83] W&B internal server running at pid: 27096, started at: 2025-04-19 23:55:52.279659
+2025-04-19 23:55:52,287 INFO    WriterThread:27096 [datastore.py:open_for_write():87] open: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\run-sk6sh7t4.wandb
+2025-04-19 23:55:52,359 INFO    SenderThread:27096 [sender.py:_setup_resume():695] checking resume status for rohitrk06-indian-institute-of-technology-madras/DL_Assignment_2-Flexible_CNN/sk6sh7t4
+2025-04-19 23:55:53,438 INFO    SenderThread:27096 [dir_watcher.py:__init__():211] watching files in: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files
+2025-04-19 23:55:53,438 INFO    SenderThread:27096 [sender.py:_start_run_threads():1134] run started: sk6sh7t4 with start time 1745087152.277661
+2025-04-19 23:55:53,463 INFO    HandlerThread:27096 [system_monitor.py:start():187] Starting system monitor
+2025-04-19 23:55:53,463 INFO    SystemMonitor:27096 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-04-19 23:55:53,464 INFO    HandlerThread:27096 [system_monitor.py:probe():207] Collecting system info
+2025-04-19 23:55:53,478 INFO    SystemMonitor:27096 [interfaces.py:start():186] Started cpu monitoring
+2025-04-19 23:55:53,479 INFO    SystemMonitor:27096 [interfaces.py:start():186] Started disk monitoring
+2025-04-19 23:55:53,517 INFO    SystemMonitor:27096 [interfaces.py:start():186] Started memory monitoring
+2025-04-19 23:55:53,538 INFO    SystemMonitor:27096 [interfaces.py:start():186] Started network monitoring
+2025-04-19 23:55:53,656 INFO    HandlerThread:27096 [system_monitor.py:probe():217] Finished collecting system info
+2025-04-19 23:55:53,656 INFO    HandlerThread:27096 [system_monitor.py:probe():220] Publishing system info
+2025-04-19 23:55:53,659 INFO    HandlerThread:27096 [system_monitor.py:probe():222] Finished publishing system info
+2025-04-19 23:55:53,704 INFO    SenderThread:27096 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-04-19 23:55:54,441 INFO    Thread-16 :27096 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\requirements.txt
+2025-04-19 23:55:54,441 INFO    Thread-16 :27096 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\wandb-metadata.json
+2025-04-19 23:55:54,766 INFO    wandb-upload_0:27096 [upload_job.py:push():130] Uploaded file C:\Users\sanka\AppData\Local\Temp\tmpwlyma2ecwandb\o660vc2f-wandb-metadata.json
+2025-04-19 23:55:54,942 INFO    SenderThread:27096 [sender.py:send_run():981] updated run: sk6sh7t4
+2025-04-19 23:55:54,942 INFO    SenderThread:27096 [sender.py:send_exit():554] handling exit code: 1
+2025-04-19 23:55:54,943 INFO    SenderThread:27096 [sender.py:send_exit():556] handling runtime: 1
+2025-04-19 23:55:54,943 INFO    SenderThread:27096 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-19 23:55:54,943 INFO    SenderThread:27096 [sender.py:send_exit():562] send defer
+2025-04-19 23:55:54,944 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 0
+2025-04-19 23:55:54,944 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 0
+2025-04-19 23:55:54,944 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 1
+2025-04-19 23:55:54,944 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 1
+2025-04-19 23:55:54,944 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 1
+2025-04-19 23:55:54,944 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 2
+2025-04-19 23:55:54,945 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 2
+2025-04-19 23:55:54,945 INFO    HandlerThread:27096 [system_monitor.py:finish():196] Stopping system monitor
+2025-04-19 23:55:54,945 INFO    HandlerThread:27096 [interfaces.py:finish():198] Joined cpu monitor
+2025-04-19 23:55:54,945 INFO    HandlerThread:27096 [interfaces.py:finish():198] Joined disk monitor
+2025-04-19 23:55:54,946 INFO    HandlerThread:27096 [interfaces.py:finish():198] Joined memory monitor
+2025-04-19 23:55:54,946 INFO    HandlerThread:27096 [interfaces.py:finish():198] Joined network monitor
+2025-04-19 23:55:54,946 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 2
+2025-04-19 23:55:54,946 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 3
+2025-04-19 23:55:54,947 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 3
+2025-04-19 23:55:54,948 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 3
+2025-04-19 23:55:54,948 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 4
+2025-04-19 23:55:54,948 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 4
+2025-04-19 23:55:54,948 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 4
+2025-04-19 23:55:54,948 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 5
+2025-04-19 23:55:54,948 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 5
+2025-04-19 23:55:54,949 INFO    SenderThread:27096 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-19 23:55:54,949 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 5
+2025-04-19 23:55:54,951 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 6
+2025-04-19 23:55:54,951 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 6
+2025-04-19 23:55:54,951 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 6
+2025-04-19 23:55:55,304 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 7
+2025-04-19 23:55:55,304 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 7
+2025-04-19 23:55:55,305 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 7
+2025-04-19 23:55:55,440 INFO    Thread-16 :27096 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\config.yaml
+2025-04-19 23:55:55,441 INFO    Thread-16 :27096 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\output.log
+2025-04-19 23:55:55,441 INFO    Thread-16 :27096 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\wandb-summary.json
+2025-04-19 23:55:56,667 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 8
+2025-04-19 23:55:56,671 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 8
+2025-04-19 23:55:56,672 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 8
+2025-04-19 23:55:56,672 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 9
+2025-04-19 23:55:56,673 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 9
+2025-04-19 23:55:56,673 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 9
+2025-04-19 23:55:56,674 INFO    SenderThread:27096 [dir_watcher.py:finish():359] shutting down directory watcher
+2025-04-19 23:55:57,444 INFO    SenderThread:27096 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\output.log
+2025-04-19 23:55:57,445 INFO    SenderThread:27096 [dir_watcher.py:finish():389] scan: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files
+2025-04-19 23:55:57,445 INFO    SenderThread:27096 [dir_watcher.py:finish():403] scan save: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\config.yaml config.yaml
+2025-04-19 23:55:57,445 INFO    SenderThread:27096 [dir_watcher.py:finish():403] scan save: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\output.log output.log
+2025-04-19 23:55:57,448 INFO    SenderThread:27096 [dir_watcher.py:finish():403] scan save: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\requirements.txt requirements.txt
+2025-04-19 23:55:57,450 INFO    SenderThread:27096 [dir_watcher.py:finish():403] scan save: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\wandb-metadata.json wandb-metadata.json
+2025-04-19 23:55:57,452 INFO    SenderThread:27096 [dir_watcher.py:finish():403] scan save: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\wandb-summary.json wandb-summary.json
+2025-04-19 23:55:57,454 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 10
+2025-04-19 23:55:57,454 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 10
+2025-04-19 23:55:57,456 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 10
+2025-04-19 23:55:57,456 INFO    SenderThread:27096 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-19 23:55:58,104 INFO    wandb-upload_2:27096 [upload_job.py:push():130] Uploaded file C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\requirements.txt
+2025-04-19 23:55:58,174 INFO    wandb-upload_0:27096 [upload_job.py:push():130] Uploaded file C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\config.yaml
+2025-04-19 23:55:58,199 INFO    wandb-upload_3:27096 [upload_job.py:push():130] Uploaded file C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\wandb-summary.json
+2025-04-19 23:55:58,221 INFO    wandb-upload_1:27096 [upload_job.py:push():130] Uploaded file C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\files\output.log
+2025-04-19 23:55:58,422 INFO    Thread-15 (_thread_body):27096 [sender.py:transition_state():582] send defer: 11
+2025-04-19 23:55:58,422 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 11
+2025-04-19 23:55:58,423 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 11
+2025-04-19 23:55:58,423 INFO    SenderThread:27096 [file_pusher.py:join():175] waiting for file pusher
+2025-04-19 23:55:58,424 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 12
+2025-04-19 23:55:58,424 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 12
+2025-04-19 23:55:58,425 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 12
+2025-04-19 23:55:58,425 INFO    SenderThread:27096 [file_stream.py:finish():601] file stream finish called
+2025-04-19 23:55:58,725 INFO    SenderThread:27096 [file_stream.py:finish():605] file stream finish is done
+2025-04-19 23:55:58,725 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 13
+2025-04-19 23:55:58,725 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 13
+2025-04-19 23:55:58,727 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 13
+2025-04-19 23:55:58,727 INFO    SenderThread:27096 [sender.py:transition_state():582] send defer: 14
+2025-04-19 23:55:58,727 INFO    HandlerThread:27096 [handler.py:handle_request_defer():188] handle defer: 14
+2025-04-19 23:55:58,727 INFO    SenderThread:27096 [sender.py:send_request_defer():578] handle sender defer: 14
+2025-04-19 23:55:58,734 INFO    MainThread:27096 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-19 23:55:58,734 INFO    MainThread:27096 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-19 23:55:58,734 INFO    MainThread:27096 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-04-19 23:55:58,736 INFO    HandlerThread:27096 [handler.py:finish():897] shutting down handler
+2025-04-19 23:55:59,734 INFO    WriterThread:27096 [datastore.py:close():296] close: C:\Users\sanka\Desktop\DL_Assignment_2\Flexible_CNN\wandb\run-20250419_235552-sk6sh7t4\run-sk6sh7t4.wandb
+2025-04-19 23:55:59,734 INFO    SenderThread:27096 [sender.py:finish():1582] shutting down sender
+2025-04-19 23:55:59,734 INFO    SenderThread:27096 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-19 23:55:59,734 INFO    SenderThread:27096 [file_pusher.py:join():175] waiting for file pusher
+2025-04-19 23:55:59,736 INFO    MsgRouterThr:27096 [mailbox.py:close():129] Closing mailbox, abandoning 0 handles.

@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "CPython 3.10.9",
+    "heartbeatAt": "2025-04-19T18:25:53.532302",
+    "startedAt": "2025-04-19T18:25:52.224143",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "C:\\Users\\sanka\\AppData\\Local\\Temp\\tmpzskibvv_\\port-30080.txt",
+        "--pid",
+        "30080"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\sanka\\Desktop\\DL_Assignment_2\\Flexible_CNN\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "Flexible_CNN\\train.py",
+    "git": {
+        "remote": "https://github.com/Sankalp43/DL_Assignment_02.git",
+        "commit": "3570f2486b9e7a61b5c25c2a6fcb260318d3ac96"
+    },
+    "email": "sankalpshrivastava2017@gmail.com",
+    "root": "C:/Users/sanka/Desktop/DL_Assignment_2",
+    "host": "DESKTOP-746QPVK",
+    "username": null,
+    "executable": "C:\\Users\\sanka\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1690.0,
+        "min": 0.0,
+        "max": 1690.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1690.0,
+            "min": 0.0,
+            "max": 1690.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 510549553152,
+            "used": 308753510400
+        }
+    },
+    "memory": {
+        "total": 8212041728
+    }
+}

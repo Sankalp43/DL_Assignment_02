@@ -83,3 +83,34 @@
 2025-04-19 23:39:26 INFO About to run command: python train.py --augment=True --batch_norm=True --conv_activation=SiLU --dropout=0.2 --epochs=20 --kernel_size=5 --learning_rate=1e-05 "--num_filters=[32, 64, 128, 256, 256]"
 2025-04-19 23:39:31 INFO Running runs: ['mlgzp9hg']
 2025-04-19 23:47:20 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:47:48 INFO Running runs: []
+2025-04-19 23:47:48 INFO Agent received command: run
+2025-04-19 23:47:48 INFO Agent starting run with config:
+	augment: True
+	batch_norm: False
+	conv_activation: GELU
+	dropout: 0.3
+	epochs: 20
+	kernel_size: 7
+	learning_rate: 0.0001
+	num_filters: [32, 32, 32, 32, 32]
+2025-04-19 23:47:48 INFO About to run command: python train.py --augment=True --batch_norm=False --conv_activation=GELU --dropout=0.3 --epochs=20 --kernel_size=7 --learning_rate=0.0001 "--num_filters=[32, 32, 32, 32, 32]"
+2025-04-19 23:47:53 INFO Running runs: ['fod876jk']
+2025-04-19 23:47:53 INFO Cleaning up finished run: fod876jk
+2025-04-19 23:47:53 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:48:40 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:49:08 INFO Running runs: []
+2025-04-19 23:49:09 INFO Agent received command: run
+2025-04-19 23:49:09 INFO Agent starting run with config:
+	augment: True
+	batch_norm: True
+	conv_activation: GELU
+	dropout: 0.2
+	epochs: 20
+	kernel_size: 5
+	learning_rate: 0.0001
+	num_filters: [32, 64, 128, 256, 256]
+2025-04-19 23:49:09 INFO About to run command: python train.py --augment=True --batch_norm=True --conv_activation=GELU --dropout=0.2 --epochs=20 --kernel_size=5 --learning_rate=0.0001 "--num_filters=[32, 64, 128, 256, 256]"
+2025-04-19 23:49:14 INFO Running runs: ['rlfnjr7l']
+2025-04-19 23:49:14 INFO Cleaning up finished run: rlfnjr7l
+2025-04-19 23:49:15 INFO Closing mailbox, abandoning 0 handles.

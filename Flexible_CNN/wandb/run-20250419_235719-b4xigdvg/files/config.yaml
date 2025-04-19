@@ -1,0 +1,87 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.9
+    cli_version: 0.19.8
+    framework: huggingface
+    huggingface_version: 4.48.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1745087239
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 105
+      3:
+      - 14
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.10.9
+      5: 0.19.8
+      6: 4.48.2
+      8:
+      - 3
+      - 5
+      10:
+      - 3
+      13: windows-amd64
+wandb_project:
+  desc: null
+  value: DA6401_assignment2
+wandb_entity:
+  desc: null
+  value: myname
+wandb_sweepid:
+  desc: null
+  value: null
+epochs:
+  desc: null
+  value: 20
+batch_size:
+  desc: null
+  value: 64
+learning_rate:
+  desc: null
+  value: 0.001
+num_filters:
+  desc: null
+  value:
+  - 64
+  - 64
+  - 64
+  - 64
+  - 64
+kernel_size:
+  desc: null
+  value: 5
+dropout:
+  desc: null
+  value: 0.2
+batch_norm:
+  desc: null
+  value: false
+conv_activation:
+  desc: null
+  value: Mish
+augment:
+  desc: null
+  value: true

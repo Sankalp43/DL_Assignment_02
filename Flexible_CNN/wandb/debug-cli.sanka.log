@@ -1,0 +1,104 @@
+2025-04-19 23:50:35 INFO Running runs: []
+2025-04-19 23:50:35 INFO Agent received command: run
+2025-04-19 23:50:35 INFO Agent starting run with config:
+	augment: True
+	batch_norm: True
+	conv_activation: ReLU
+	dropout: 0
+	epochs: 20
+	kernel_size: 3
+	learning_rate: 1e-05
+	num_filters: [32, 32, 32, 32, 32]
+2025-04-19 23:50:35 INFO About to run command: python train.py --augment=True --batch_norm=True --conv_activation=ReLU --dropout=0 --epochs=20 --kernel_size=3 --learning_rate=1e-05 "--num_filters=[32, 32, 32, 32, 32]"
+2025-04-19 23:50:40 INFO Running runs: ['w3qxo93w']
+2025-04-19 23:50:40 INFO Cleaning up finished run: w3qxo93w
+2025-04-19 23:50:41 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:53:13 INFO Running runs: []
+2025-04-19 23:53:14 INFO Agent received command: run
+2025-04-19 23:53:14 INFO Agent starting run with config:
+	augment: True
+	batch_norm: True
+	conv_activation: ReLU
+	dropout: 0.3
+	epochs: 20
+	kernel_size: 3
+	learning_rate: 1e-05
+	num_filters: [64, 64, 64, 64, 64]
+2025-04-19 23:53:14 INFO About to run command: python train.py --augment=True --batch_norm=True --conv_activation=ReLU --dropout=0.3 --epochs=20 --kernel_size=3 --learning_rate=1e-05 "--num_filters=[64, 64, 64, 64, 64]"
+2025-04-19 23:53:19 INFO Running runs: ['bg8iilu7']
+2025-04-19 23:53:19 INFO Cleaning up finished run: bg8iilu7
+2025-04-19 23:53:20 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:53:43 INFO Running runs: []
+2025-04-19 23:53:44 INFO Agent received command: run
+2025-04-19 23:53:44 INFO Agent starting run with config:
+	augment: True
+	batch_norm: False
+	conv_activation: Mish
+	dropout: 0.2
+	epochs: 20
+	kernel_size: 5
+	learning_rate: 1e-05
+	num_filters: [256, 256, 128, 64, 32]
+2025-04-19 23:53:44 INFO About to run command: python train.py --augment=True --batch_norm=False --conv_activation=Mish --dropout=0.2 --epochs=20 --kernel_size=5 --learning_rate=1e-05 "--num_filters=[256, 256, 128, 64, 32]"
+2025-04-19 23:53:49 INFO Running runs: ['jymar3rk']
+2025-04-19 23:53:49 INFO Cleaning up finished run: jymar3rk
+2025-04-19 23:53:50 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:54:35 INFO Running runs: []
+2025-04-19 23:54:35 INFO Agent received command: run
+2025-04-19 23:54:35 INFO Agent starting run with config:
+	augment: True
+	batch_norm: False
+	conv_activation: Mish
+	dropout: 0.2
+	epochs: 20
+	kernel_size: 3
+	learning_rate: 0.001
+	num_filters: [64, 64, 64, 64, 64]
+2025-04-19 23:54:35 INFO About to run command: python train.py --augment=True --batch_norm=False --conv_activation=Mish --dropout=0.2 --epochs=20 --kernel_size=3 --learning_rate=0.001 "--num_filters=[64, 64, 64, 64, 64]"
+2025-04-19 23:54:40 INFO Running runs: ['hvrbo9kw']
+2025-04-19 23:54:40 INFO Cleaning up finished run: hvrbo9kw
+2025-04-19 23:54:41 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:55:05 INFO Running runs: []
+2025-04-19 23:55:05 INFO Agent received command: run
+2025-04-19 23:55:05 INFO Agent starting run with config:
+	augment: True
+	batch_norm: False
+	conv_activation: SiLU
+	dropout: 0.3
+	epochs: 20
+	kernel_size: 5
+	learning_rate: 0.001
+	num_filters: [32, 64, 128, 64, 32]
+2025-04-19 23:55:05 INFO About to run command: python train.py --augment=True --batch_norm=False --conv_activation=SiLU --dropout=0.3 --epochs=20 --kernel_size=5 --learning_rate=0.001 "--num_filters=[32, 64, 128, 64, 32]"
+2025-04-19 23:55:10 INFO Running runs: ['ov6xqixm']
+2025-04-19 23:55:10 INFO Cleaning up finished run: ov6xqixm
+2025-04-19 23:55:11 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:55:32 INFO Running runs: []
+2025-04-19 23:55:33 INFO Agent received command: run
+2025-04-19 23:55:33 INFO Agent starting run with config:
+	augment: True
+	batch_norm: True
+	conv_activation: SiLU
+	dropout: 0
+	epochs: 20
+	kernel_size: 7
+	learning_rate: 0.0001
+	num_filters: [32, 64, 128, 64, 32]
+2025-04-19 23:55:33 INFO About to run command: python train.py --augment=True --batch_norm=True --conv_activation=SiLU --dropout=0 --epochs=20 --kernel_size=7 --learning_rate=0.0001 "--num_filters=[32, 64, 128, 64, 32]"
+2025-04-19 23:55:38 INFO Running runs: ['sk6sh7t4']
+2025-04-19 23:56:04 INFO Cleaning up finished run: sk6sh7t4
+2025-04-19 23:56:04 INFO Closing mailbox, abandoning 0 handles.
+2025-04-19 23:57:01 INFO Running runs: []
+2025-04-19 23:57:01 INFO Agent received command: run
+2025-04-19 23:57:01 INFO Agent starting run with config:
+	augment: True
+	batch_norm: False
+	conv_activation: Mish
+	dropout: 0.2
+	epochs: 20
+	kernel_size: 5
+	learning_rate: 0.001
+	num_filters: [64, 64, 64, 64, 64]
+2025-04-19 23:57:01 INFO About to run command: python train.py --augment=True --batch_norm=False --conv_activation=Mish --dropout=0.2 --epochs=20 --kernel_size=5 --learning_rate=0.001 "--num_filters=[64, 64, 64, 64, 64]"
+2025-04-19 23:57:06 INFO Running runs: ['b4xigdvg']
+2025-04-20 00:01:55 INFO Closing mailbox, abandoning 0 handles.

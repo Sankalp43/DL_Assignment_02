@@ -30,10 +30,8 @@ logging.basicConfig(
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 logging.info(f"Using device: {device}")
 
-# ---------------- Data Directory ---------------- #
-data_dir = "C:\Users\sanka\Desktop\DL_Assignment_2\inaturalist_12K"  # Replace with your dataset path
-logging.info(f"Using dataset from: {data_dir}")
-
+# ---------------- Data Directory ---------------- 
+data_dir = "C:/Users/sanka/Desktop/DL_Assignment_2/inaturalist_12K"  # Replace with your dataset path
 # ---------------- Argument Parsing ---------------- #
 parser = argparse.ArgumentParser(description='Neural Network Training Configuration')
 
